@@ -4,9 +4,14 @@ import FlashcardControls from './components/FlashcardControls';
 import './App.css';
 
 const cards = [
-  { question: "What is the capital of France?", answer: "Paris" },
-  { question: "What is 2 + 2?", answer: "4" },
-  { question: "What language is used in React?", answer: "JavaScript" }
+  { question: "Aku", answer: "I" },
+  { question: "Kamu", answer: "You" },
+  { question: "Makan", answer: "Eat" },
+  { question: "Suka", answer: "Like" },
+  { question: "Dia", answer: "He/She" },
+  { question: "Untuk", answer: "For" },
+  { question: "Tidak", answer: "No" },
+  { question: "Bisa", answer: "Can" }
 ];
 
 function App() {
@@ -26,7 +31,7 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Flashcard Set: Quick Facts</h1>
+      <h1>Flashcards: Indonesian - English</h1>
       <p>Test your knowledge with simple Q&A cards!</p>
       <p>Total Cards: {cards.length}</p>
       <Flashcard card={cards[currentIndex]} isFlipped={isFlipped} onFlip={handleFlip} />

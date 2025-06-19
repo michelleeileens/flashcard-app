@@ -10,20 +10,18 @@
   cursor: pointer;
   transition: transform 0.4s ease-in-out;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  color: red;
-  background-color: #214173;
+  color: white;
+  background-color: maroon;
 }
 
 .flashcard.flipped {
-  background-color: #337a28;
-  transform: rotateY(180deg);
-  color:#214173;
+  background-color: navy;
+  color: white;
+  /* transform: rotateY(180deg); */
 }
 
 .card-content {
   padding: 20px;
   font-size: 1.2rem;
   font-weight: bold;
-  background-color: #337a28;
-  /* color: red; */
 }
