@@ -1,0 +1,29 @@
+.flashcard {
+  width: 300px;
+  height: 200px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 0.4s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: red;
+  background-color: #214173;
+}
+
+.flashcard.flipped {
+  background-color: #337a28;
+  transform: rotateY(180deg);
+  color:#214173;
+}
+
+.card-content {
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #337a28;
+  /* color: red; */
+}

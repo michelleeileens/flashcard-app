@@ -1,0 +1,19 @@
+.controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.controls button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
